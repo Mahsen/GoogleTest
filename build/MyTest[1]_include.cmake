@@ -1,0 +1,5 @@
+if(EXISTS "/home/mohammad/Project/GoogleTest/build/MyTest[1]_tests.cmake")
+  include("/home/mohammad/Project/GoogleTest/build/MyTest[1]_tests.cmake")
+else()
+  add_test(MyTest_NOT_BUILT MyTest_NOT_BUILT)
+endif()
